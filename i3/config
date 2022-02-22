@@ -263,5 +263,8 @@ bindsym $mod+m exec nemo
 # ENABLE
 bindsym $mod+shift+v exec nordvpn connect uk && nordvpn set killswitch enable
 #DISABLE
-bindsym $mod+shift+n exec nordvpn disconnect && nordvpn set killswitch disable 
+bindsym $mod+shift+n exec nordvpn disconnect && nordvpn set killswitch disable
+
+#Redshift start up
+exec redshift
 
