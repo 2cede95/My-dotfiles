@@ -268,3 +268,5 @@ bindsym $mod+shift+n exec nordvpn disconnect && nordvpn set killswitch disable
 #Redshift start up
 exec redshift
 
+# fcitx start up
+exec --no-startup-id fcitx5 -d 
